@@ -76,7 +76,7 @@ import { generateWAMessageFromContent } from "@whiskeysockets/baileys"
  if (!('role' in user)) 
  user.role = 'Novato' 
  if (!('autolevelup' in user)) 
- user.autolevelup = true 
+ user.autolevelup = false 
  if (!('simi' in user)) 
  user.simi = false 
  } else 
@@ -95,7 +95,7 @@ import { generateWAMessageFromContent } from "@whiskeysockets/baileys"
   warn: 0, 
  level: 0, 
  role: 'Novato', 
- autolevelup: true, 
+ autolevelup: false, 
  simi: false, 
  } 
   
